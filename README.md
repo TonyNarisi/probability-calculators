@@ -14,3 +14,14 @@
   1 - P(X = 0) - P(X = 1) - P(X = 2)
   
   with n being equal to five, and p being equal to 0.1667.
+
+- beat-the-box.rb
+
+  This is a game in which there is a three by three grid of playing cards, and each turn, the player or player
+  needs to point to a card in the grid, and say higher, lower, or same. If the next card on the deck matches
+  what the player guessed, they continue. If not, they flip that pile over and it is out of the game. The player
+  wins if they get through the entire deck, and they lose if all nine piles get flipped over.
+  
+  This program plays the game based purely on whatever the best chance of guessing correctly on the board is. It
+  plays the game 10,000 times, and prints out the percentage of games that it won and the percentage of games that
+  it lost.
